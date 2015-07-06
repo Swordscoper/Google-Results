@@ -34,6 +34,61 @@ div#content {
 	width: 100%;
 }
 
+div#appbar {
+	background-color: #FFF;
+	height: 60px;
+	border-bottom: 1px solid #DDD;
+	position: relative;
+}
+
+div#settings {
+	position: absolute;
+	right: 28px;
+	top: 15px;
+	height: 29px;
+	width: 170px;
+}
+
+div#public {
+	position: absolute;
+	left: 40px;
+	height: 27px;
+	width: 40px;
+	background-color: #EEE;
+	border: 1px solid #999;
+	border-radius: 2px;
+	opacity: 0.55;
+}
+
+div#public:hover {
+	border: 1px solid #666;
+}
+
+div#private {
+	position: absolute;
+	left: 0px;
+	height: 27px;
+	width: 40px;
+	background-color: #DDD;
+	border: 1px solid #BBB;
+	border-radius: 2px;
+}
+
+div#options {
+	position: absolute;
+	right: 0px;
+	height: 27px;
+	width: 70px;
+	background-color: #EEE;
+	border: 1px solid #999;
+	border-radius: 2px;
+	opacity: 0.65;
+}
+
+div#options:hover {
+	opacity: 0.9;
+}
+
 div#footer {
 	background-color: #F2F2F2;
 	border-top: 1px solid #CCC;
@@ -47,9 +102,9 @@ div#footer {
 
 /*small downward pointing arrow "icon", idea taken directly from www.google.co.uk*/
 span.d_arrow {
-	border-left: 3.6px dashed #FFF;
-	border-right: 3.6px dashed #FFF;
-	border-top: 3.6px solid #000;
+	border-left: 4px dashed #FFF;
+	border-right: 4px dashed #FFF;
+	border-top: 4px solid #000;
 	vertical-align: middle;
 	display: inline-block;
 }
@@ -106,6 +161,40 @@ ul#location li {
 	padding-right: 0px;
 }
 
+div#apps ul {
+	display: inline;
+	position: absolute;
+	top: 6px;
+	left: 87px;
+	font-size: 14px;
+}
+
+div#apps li {
+	padding-left: 16px;
+}
+
+div#apps li.selected {
+	padding-left: 9px;
+	color: #dd4b39;
+	font-weight: bold;
+	border-bottom: 3px solid #dd4b39;
+	padding-bottom: 21px;
+}
+
+div#apps li#search_tools {
+	color: #888;
+}
+
+div#settings img {
+	padding-left: 13px;
+	padding-top: 7px;
+}
+
+div#options img {
+	padding-top: 5px;
+	padding-left: 25px;
+}
+
 /*all links toggle opacity, most are plain text with underline*/
 a { 
 	text-decoration: none;
@@ -122,6 +211,23 @@ a:hover{
 a.icon:hover {
 	text-decoration: none;
 	cursor: default;
+}
+
+li#search_tools a:hover {
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	padding: 6px;
+	margin-left: -7px;
+	background-color: #F2F2F2;
+}
+
+li#search_tools a:focus {
+	border: 1px solid #888;
+	border-radius: 2px;
+	padding: 6px;
+	margin-left: -7px;
+	background-color: #DDD;
+	color: #000;
 }
 
 /*nudge the 2 image based links down a few px*/
