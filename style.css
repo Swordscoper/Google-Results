@@ -137,34 +137,6 @@ img#logo {
 	height: 95px;
 }
 
-#country {
-	color: #777;
-	font-size: 16px;
-	font-weight: bold;
-	font-family: Arial, sans-serif;
-	position: absolute;
-	left: 216px;
-	bottom: -10px;
-}
-
-div#search {
-	width: 574px;
-	height: 78px;
-	position: fixed;
-	top: 312px;
-	left: 50%;
-	margin-left: -286px;
-	/*border: 1px dashed black;*/
-}
-
-div#buttons {
-	background-color: blue;
-}
-
-div#bar {
-	background-color: red;
-}
-
 input {
 	display: block;
 	height: 30px;
@@ -188,10 +160,6 @@ input.button:hover {
 	color: #000;
 }
 
-input.button:focus {
-	border: 1px solid #1B70EF;
-}
-
 input.text {
 	width: 573px;
 }
@@ -200,12 +168,6 @@ input#run {
 	width: 96px;
 	height: 29px;
 	margin-left: 176px;
-}
-
-input#lucky {
-	width: 111px;
-	height: 29px;
-	margin-left: 12px;
 }
 
 input.text {
