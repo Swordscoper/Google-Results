@@ -101,7 +101,15 @@ div#results {
 }
 
 div#all_results {
-	background-color: gray;
+	
+}
+
+div#result_1 {
+	padding-left: 135px;
+}
+
+div#result_2 {
+	padding-left: 135px;
 }
 
 div#footer {
@@ -123,6 +131,15 @@ span.d_arrow {
 	vertical-align: middle;
 	display: inline-block;
 }
+
+div#all_results span.d_arrow {
+	border-left: 4px dashed #FFF;
+	border-right: 4px dashed #FFF;
+	border-top: 4px solid #000;
+	vertical-align: middle;
+	display: inline-block;
+}
+
 
 span.circle {
 	border: 5px solid #000;
@@ -226,6 +243,19 @@ a:hover{
 a.icon:hover {
 	text-decoration: none;
 	cursor: default;
+}
+
+h1 a {
+	color: #1a0dab;
+	opacity: 1;
+	font-size: 18px;
+	font-weight: normal;
+	padding-bottom: 4px;
+}
+
+h1 a:hover {
+	opacity: 0.85;
+	text-decoration: underline;
 }
 
 li#search_tools a:hover {
@@ -336,16 +366,20 @@ input.text:focus {
 }
 
 /*Start of results area woop*/
-h1 a {
-	font-size: 17px;
-	padding-bottom: 4px;
+h1 {
+	margin-bottom: 0px;
+	font-size: 14px;
 }
 
 h2 {
 	color: #006621;
-	font-size: 13px;
+	font-size: 14px;
 	padding-top: 0px;
-	padding-bottom: 4px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-weight: normal;
+	font-size: 14px;
 }
 
 h2 span#d_arrow {
@@ -356,8 +390,30 @@ p#res_blurb {
 	font-size: 13px;
 	padding-top: 0px;
 	opacity: 0.8;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	max-width: 530px;
 }
 
 ul#res_links {
 	display: list-item;
+	color: blue;
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: 0px;
+
+}
+
+ul#res_links li {
+	padding: 0px;
+}
+
+ul#res_links li a {
+	color: #1a0dab;
+	opacity: 0.8;
+}
+
+ul#res_links li a:hover {
+	text-decoration: underline;
+	opacity: 1;
 }
