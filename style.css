@@ -104,11 +104,7 @@ div#all_results {
 	
 }
 
-div#result_1 {
-	padding-left: 135px;
-}
-
-div#result_2 {
+div#result {
 	padding-left: 135px;
 }
 
@@ -416,4 +412,10 @@ ul#res_links li a {
 ul#res_links li a:hover {
 	text-decoration: underline;
 	opacity: 1;
+}
+
+/*HERE BE MESSY DESIGN*/
+
+span#date {
+	opacity: 0.6;
 }
