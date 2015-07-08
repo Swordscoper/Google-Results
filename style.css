@@ -89,6 +89,21 @@ div#options:hover {
 	opacity: 0.9;
 }
 
+div#results {
+	color: #000;
+	opacity: 0.65;
+	position: relative;
+	font-size: 13px;
+	padding-left: 137px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	/*background-color: blue;*/
+}
+
+div#all_results {
+	background-color: gray;
+}
+
 div#footer {
 	background-color: #F2F2F2;
 	border-top: 1px solid #CCC;
@@ -318,4 +333,31 @@ input.text:focus {
 	
 	outline: none;
 	border: 1px solid #1B70EF;
+}
+
+/*Start of results area woop*/
+h1 a {
+	font-size: 17px;
+	padding-bottom: 4px;
+}
+
+h2 {
+	color: #006621;
+	font-size: 13px;
+	padding-top: 0px;
+	padding-bottom: 4px;
+}
+
+h2 span#d_arrow {
+	border-color: #006621;
+}
+
+p#res_blurb {
+	font-size: 13px;
+	padding-top: 0px;
+	opacity: 0.8;
+}
+
+ul#res_links {
+	display: list-item;
 }
